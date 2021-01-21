@@ -108,6 +108,7 @@ h2, p {
   padding: 1rem;
   display: flex;
   cursor: pointer;
+  width: 80%;
 }
 
 .status{
@@ -120,6 +121,10 @@ h2, p {
   width: 50%;
   padding: .5rem;
   border-radius: 1rem;
+}
+
+.status input:focus {
+  outline: none;
 }
 
 .card {
